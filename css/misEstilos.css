@@ -1,0 +1,154 @@
+main a {
+  color: black;
+  text-decoration: none;
+  text-decoration-style: none;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 30px;
+}
+
+.header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.middle {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 25px;
+}
+
+body {
+  background: orangered;
+}
+
+.divRectangulo {
+  width: 100%;
+  align-items: center;
+}
+
+.fondoRojo {
+  background-color: red;
+}
+
+.logo {
+  width: 125px;
+}
+
+.imagenes .primeraImg > img {
+  width: 40%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 100px;
+}
+
+a{
+    display: flex;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:auto;
+    padding: 10px;
+
+}
+
+.casilleros {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  float: left;
+}
+
+.casilleros > img {
+  width: 80%;
+  margin: initial;
+  display: flex;
+  float: left;
+  justify-content: flex-end;
+  background-color: black;
+}
+
+.casillerito > label {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  display: inline-block;
+  width: 10px;
+  vertical-align: top;
+}
+.casillerito > input,
+textarea {
+  margin-left: 100px;
+  font-size: 40px;
+  display: inline-block;
+  width: 20rem;
+}
+.casillerito {
+  padding: 8px;
+}
+.form {
+  font-size: 2rem;
+  margin-left: 20px;
+  margin-right: 10%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bottom {
+  display: flex;
+  float: left;
+  width: 100%;
+  margin: auto;
+  justify-content: space-around;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+}
+
+h1 {
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  justify-content: center;
+}
+ol {
+  display: flex;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+}
+svg {
+  display: flex;
+  font: 2px;
+  margin: 1%;
+  width: 50px;
+  height: 70px;
+}
+
+.tiendas {
+  display: flex;
+  justify-content: flex-end;
+  margin: 5px;
+}
+
+.direccion{
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.red {
+    justify-content: flex-start;
+}
+
+.mapa {
+    padding: 10%;
+}
+
+#lanzamiento {
+    justify-content: center; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-weight: 900; 
+    font-size: 5rem; 
+    margin-top: 94px;
+}
